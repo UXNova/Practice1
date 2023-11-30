@@ -1,77 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*::before,
+*::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
 html,
 body {
-  font-size: 15px;
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+a:hover {
+  text-decoration: none;
 }
 
-/*.arial {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input:: ::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  paddding: 0;
+  border: 0;
 }
 
-.fontsize30 {
-  font-size: 30px;
+body {
+  padding: 200px 30px;
 }
-.fontstyleitalic {
-  font-style: italic;
+.block {
+  background: url("./172581.jpg") 30% / cover no-repeat;
+  height: 150px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #000;
 }
-.font700 {
-  font-weight: 700;
+.list {
+  margin: 0 0 50px 0;
 }
-.colorred {
-  color: #f00f00;
-}
-.textright {
-  text-align: justify;
-}
-.decoration {
-  text-decoration: underline;
-  text-decoration: overline;
-  text-decoration: line-through;
-}
-
-.shadow {
-  text-shadow: 2px 1px 2px #000000;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-.indent {
-  text-indent: 30px;
-}
-
-.lspace {
-  letter-spacing: 5px;
-}
-
-.wspace {
-  word-spacing: 40px;
-}
-
-.whitespace {
-  white-space: pre-wrap;
-}
-.lineheight {
-  line-height: 40px;
-}
-*/
-
-.example__block {
-  font-size: 50px;
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-  border-radius: 50%;
-  visibility: visible;
-}
-
-.example__string {
-  font-size: 50px;
-  margin: 0 0 30px 0;
-}
-.example__image {
-  border-radius: 50%;
-  border: 16px solid #000;
-  margin: 100px;
-  width: 300px;
-  box-shadow: 20px 30px 40px 4px #000, inset 110px 190px 160px 130px #90000099;
+.list li {
+  font-size: 24px;
+  margin: 0 0 15px 0;
+  background: url(./instagram.svg) left no-repeat;
+  padding: 0 0 0 40px;
 }
