@@ -59,21 +59,6 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-body {
-  padding: 200px 30px;
-}
 .block {
-  background: url("./172581.jpg") 30% / cover no-repeat;
-  height: 150px;
-  border-radius: 15px;
-  box-shadow: 0 0 10px #000;
-}
-.list {
-  margin: 0 0 50px 0;
-}
-.list li {
-  font-size: 24px;
-  margin: 0 0 15px 0;
-  background: url(./instagram.svg) left no-repeat;
-  padding: 0 0 0 40px;
+  background-color: #fd0952;
 }
