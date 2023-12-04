@@ -88,3 +88,10 @@ body {
   display: inline-block;
   margin: 0 10px;
 }
+.list li:hover::before {
+  content: "";
+  background-color: aqua;
+}
+.text:hover {
+  background-color: blue;
+}
