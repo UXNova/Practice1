@@ -61,37 +61,23 @@ button::-moz-focus-inner {
 /*---------------------------------------*/
 body {
   padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.text {
-  font-size: 24px;
-  line-height: 33px;
-  margin: 0 0 30px 0;
-}
-.text::first-letter {
-  color: aqua;
-}
-
 .list {
+  font-size: 18px;
 }
 
 .list li {
-  font-size: 24px;
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
+  position: relative;
+  padding-left: 30px;
 }
-
-.list li::before {
+.list li:before {
   content: "";
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: blueviolet;
-  display: inline-block;
-  margin: 0 10px;
-}
-.list li:hover::before {
-  content: "";
-  background-color: aqua;
-}
-.text:hover {
-  background-color: blue;
+  background: url("./assets/instagram.svg") 0 0 no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0px;
+  left: 0;
 }
